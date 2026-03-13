@@ -1,0 +1,70 @@
+{
+  "id": "wod-compendium",
+  "title": "WoD Compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Olly",
+      "discord": "takatakitu",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders": [
+    {
+      "name": "WoD Compendium",
+      "sorting": "m",
+      "color": "#156aaa",
+      "packs": ["forall-items"],
+      "folders": [
+        {
+          "name": "Подменыши",
+          "sorting": "m",
+          "color": "#67c1b9",
+          "packs": ["ctd-arts"],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "ctd-arts",
+      "label": "Искусства",
+      "path": "packs/ctd-arts",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "forall-items",
+      "label": "Предметы",
+      "path": "packs/forall-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldofdarkness"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "worldofdarkness",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
