@@ -1,14 +1,14 @@
 {
   "id": "wod-compendium",
   "title": "WoD Compendium",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
   "authors": [
     {
-      "name": "Olly",
+      "name": "Olly H.",
       "discord": "takatakitu",
       "flags": {}
     }
@@ -20,7 +20,7 @@
     {
       "name": "WoD Compendium",
       "sorting": "m",
-      "color": "#000000",
+      "color": "#190000",
       "packs": [
         "forall-items"
       ],
@@ -35,7 +35,7 @@
           ],
           "folders": []
         },
-		{
+        {
           "name": "Demon the Fallen",
           "sorting": "m",
           "color": "#e56f08",
@@ -48,10 +48,22 @@
         {
           "name": "Vampire the Masquerade",
           "sorting": "m",
-          "color": "#000000",
+          "color": "#690202",
           "packs": [
             "vtm-rules",
-            "vtm-disciplines"
+            "vtm-disciplines",
+			"vtm-rituals"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Vampire Dark Ages",
+          "sorting": "m",
+          "color": "#330000",
+          "packs": [
+            "vda-rules",
+            "vda-disciplines",
+			"vda-rituals"
           ],
           "folders": []
         }
@@ -92,7 +104,7 @@
         "ASSISTANT": "OWNER"
       }
     },
-	{
+    {
       "name": "dtf-lores",
       "label": "Знания",
       "path": "packs/dtf-lores",
@@ -135,6 +147,50 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "vda-disciplines",
+      "label": "Дисциплины",
+      "path": "packs/vda-disciplines",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vda-rules",
+      "label": "Правила и механики",
+      "path": "packs/vda-rules",
+      "type": "JournalEntry",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vda-rituals",
+      "label": "Ритуалы",
+      "path": "packs/vda-rituals",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldofdarkness"
+    },
+    {
+      "name": "vtm-rituals",
+      "label": "Ритуалы",
+      "path": "packs/vtm-rituals",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldofdarkness"
     }
   ],
   "relationships": {
@@ -146,7 +202,7 @@
       }
     ]
   },
-   "media": [
+  "media": [
     {
       "type": "setup",
       "url": "modules/wod-compendium/art/WoDC Logo.png",
@@ -156,6 +212,6 @@
     }
   ],
   "manifest": "https://github.com/takatakitu/wod_comp/releases/latest/download/module.json",
-  "download": "https://github.com/takatakitu/wod_comp/releases/latest/download/module.zip",
+  "download": "https://github.com/takatakitu/wod_comp/releases/latest/download/wod-compendium.zip",
   "description": ""
 }
