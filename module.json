@@ -31,7 +31,11 @@
           "color": "#58a0fe",
           "packs": [
             "ctd-rules",
-            "ctd-arts"
+            "ctd-books",
+            "ctd-arts",
+            "ctd-backgrounds",
+            "ctd-merits-flaws",
+			"ctd-items"
           ],
           "folders": []
         },
@@ -52,7 +56,7 @@
           "packs": [
             "vtm-rules",
             "vtm-disciplines",
-			"vtm-rituals"
+            "vtm-rituals"
           ],
           "folders": []
         },
@@ -63,7 +67,7 @@
           "packs": [
             "vda-rules",
             "vda-disciplines",
-			"vda-rituals"
+            "vda-rituals"
           ],
           "folders": []
         }
@@ -175,16 +179,60 @@
       "label": "Ритуалы",
       "path": "packs/vda-rituals",
       "type": "Item",
+      "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "worldofdarkness"
+      }
     },
     {
       "name": "vtm-rituals",
       "label": "Ритуалы",
       "path": "packs/vtm-rituals",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ctd-books",
+      "label": "Книги",
+      "path": "packs/ctd-books",
+      "type": "JournalEntry",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ctd-backgrounds",
+      "label": "Факты биографии",
+      "path": "packs/ctd-backgrounds",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ctd-merits-flaws",
+      "label": "Достоинства и недостатки",
+      "path": "packs/ctd-merits-flaws",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ctd-items",
+      "label": "Предметы",
+      "path": "packs/ctd-items",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
