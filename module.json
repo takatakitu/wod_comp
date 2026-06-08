@@ -1,7 +1,7 @@
 {
   "id": "wod-compendium",
   "title": "WoD Compendium",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -35,7 +35,8 @@
             "ctd-arts",
             "ctd-backgrounds",
             "ctd-merits-flaws",
-			"ctd-items"
+            "ctd-items",
+			"ctd-rede"
           ],
           "folders": []
         },
@@ -233,6 +234,17 @@
       "name": "ctd-items",
       "label": "Предметы",
       "path": "packs/ctd-items",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ctd-rede",
+      "label": "Силы химер",
+      "path": "packs/ctd-rede",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
