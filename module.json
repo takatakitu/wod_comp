@@ -10,6 +10,13 @@
     {
       "name": "Olly H.",
       "discord": "takatakitu",
+      "url": "https://t.me/three_opossums_in_the_coat",
+      "flags": {}
+    },
+    {
+      "name": "Каин",
+      "url": "https://t.me/redwingsgame",
+      "discord": "karastes",
       "flags": {}
     }
   ],
@@ -87,8 +94,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-arts",
@@ -99,8 +105,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-rules",
@@ -111,8 +116,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "dtf-lores",
@@ -123,8 +127,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "dtf-rules",
@@ -135,8 +138,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vtm-disciplines",
@@ -147,8 +149,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vtm-rules",
@@ -159,8 +160,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vda-disciplines",
@@ -171,8 +171,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vda-rules",
@@ -183,8 +182,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vda-rituals",
@@ -195,8 +193,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vtm-rituals",
@@ -207,8 +204,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-books",
@@ -219,8 +215,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-backgrounds",
@@ -231,8 +226,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-merits-flaws",
@@ -243,8 +237,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-items",
@@ -255,8 +248,7 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "ctd-rede",
@@ -267,32 +259,29 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "vtm-merits-flaws",
       "label": "Достоинства и недостатки",
       "path": "packs/vtm-merits-flaws",
       "type": "Item",
+      "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "worldofdarkness",
-      "flags": {}
+      }
     },
     {
       "name": "vtm-backgrounds",
       "label": "Факты биографии",
       "path": "packs/vtm-backgrounds",
       "type": "Item",
+      "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "worldofdarkness",
-      "flags": {}
+      }
     }
   ],
   "relationships": {
@@ -316,9 +305,10 @@
   "languages": [
     {
       "lang": "ru",
-	  "name": "WoD - Альтернативный",
+      "name": "WoD - Альтернативный",
       "path": "lang/worldofdarkness_ru.json",
-      "system": "worldofdarkness"
+      "system": "worldofdarkness",
+      "flags": {}
     }
   ],
   "manifest": "https://github.com/takatakitu/wod_comp/releases/latest/download/module.json",

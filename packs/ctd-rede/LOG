@@ -1,3 +1,8 @@
-2026/11/09-23:06:57.959 cfc Recovering log #129
-2026/11/09-23:06:57.970 cfc Delete type=0 #129
-2026/11/09-23:06:57.970 cfc Delete type=3 #128
+2026/11/10-01:59:13.561 8d40 Recovering log #142
+2026/11/10-01:59:13.564 8d40 Delete type=0 #142
+2026/11/10-01:59:13.565 8d40 Delete type=3 #140
+2026/11/10-01:59:32.980 2c5c Level-0 table #147: started
+2026/11/10-01:59:32.980 2c5c Level-0 table #147: 0 bytes OK
+2026/11/10-01:59:32.982 2c5c Delete type=0 #145
+2026/11/10-01:59:32.985 2c5c Manual compaction at level-0 from '!items!067eT35ilRb9dwpU' @ 72057594037927935 : 1 .. '!items!ysWHP9MXYJKVf4Nf' @ 0 : 0; will stop at (end)
+2026/11/10-01:59:32.985 2c5c Manual compaction at level-1 from '!items!067eT35ilRb9dwpU' @ 72057594037927935 : 1 .. '!items!ysWHP9MXYJKVf4Nf' @ 0 : 0; will stop at (end)

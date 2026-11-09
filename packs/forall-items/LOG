@@ -1,3 +1,8 @@
-2026/11/09-23:06:57.073 cfc Recovering log #288
-2026/11/09-23:06:57.086 cfc Delete type=0 #288
-2026/11/09-23:06:57.086 cfc Delete type=3 #287
+2026/11/10-01:59:13.279 85ec Recovering log #301
+2026/11/10-01:59:13.283 85ec Delete type=0 #301
+2026/11/10-01:59:13.283 85ec Delete type=3 #299
+2026/11/10-01:59:32.956 2c5c Level-0 table #306: started
+2026/11/10-01:59:32.956 2c5c Level-0 table #306: 0 bytes OK
+2026/11/10-01:59:32.957 2c5c Delete type=0 #304
+2026/11/10-01:59:32.957 2c5c Manual compaction at level-0 from '!folders!54ZNjM1x5MffQx9e' @ 72057594037927935 : 1 .. '!items!zm1uGGvtPkCm1Mug' @ 0 : 0; will stop at (end)
+2026/11/10-01:59:32.957 2c5c Manual compaction at level-1 from '!folders!54ZNjM1x5MffQx9e' @ 72057594037927935 : 1 .. '!items!zm1uGGvtPkCm1Mug' @ 0 : 0; will stop at (end)
