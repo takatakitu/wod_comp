@@ -1,7 +1,3 @@
-2026/06/08-02:12:05.361 7718 Recovering log #146
-2026/06/08-02:12:05.367 7718 Delete type=0 #146
-2026/06/08-02:12:05.367 7718 Delete type=3 #144
-2026/06/08-03:22:31.517 a268 Level-0 table #151: started
-2026/06/08-03:22:31.517 a268 Level-0 table #151: 0 bytes OK
-2026/06/08-03:22:31.519 a268 Delete type=0 #149
-2026/06/08-03:22:31.520 a268 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2026/11/09-23:06:57.255 dbc Recovering log #259
+2026/11/09-23:06:57.265 dbc Delete type=0 #259
+2026/11/09-23:06:57.265 dbc Delete type=3 #258

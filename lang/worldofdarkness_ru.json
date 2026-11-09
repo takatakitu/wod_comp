@@ -1,0 +1,25 @@
+{
+	"TYPES.Item.Realm": "Королевство",
+	"wod": {		
+		"types": {
+			"realms": "Королевства"
+		},
+		"bio": {
+			"changeling": {
+				"affinity": "Предрасположенность"
+			}
+		},
+		"shapes": {
+			"mortalseeming": "Смертный облик",
+			"faemien": "Облик феи"
+		},
+		"realms": {
+			"headline": "Королевства"
+		},
+		"dialog": {
+			"power": {
+				"unleashing": "Высвобождение"
+			}
+		}
+	}
+}

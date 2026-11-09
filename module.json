@@ -1,10 +1,10 @@
 {
   "id": "wod-compendium",
   "title": "WoD Compendium",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
@@ -36,7 +36,7 @@
             "ctd-backgrounds",
             "ctd-merits-flaws",
             "ctd-items",
-			"ctd-rede"
+            "ctd-rede"
           ],
           "folders": []
         },
@@ -57,7 +57,9 @@
           "packs": [
             "vtm-rules",
             "vtm-disciplines",
-            "vtm-rituals"
+            "vtm-rituals",
+            "vtm-merits-flaws",
+            "vtm-backgrounds"
           ],
           "folders": []
         },
@@ -85,7 +87,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-arts",
@@ -96,7 +99,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-rules",
@@ -107,7 +111,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "dtf-lores",
@@ -118,7 +123,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "dtf-rules",
@@ -129,7 +135,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vtm-disciplines",
@@ -140,7 +147,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vtm-rules",
@@ -151,40 +159,44 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vda-disciplines",
-      "label": "Дисциплины",
+      "label": "Дисциплины | DA",
       "path": "packs/vda-disciplines",
       "type": "Item",
       "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vda-rules",
-      "label": "Правила и механики",
+      "label": "Правила и механики | DA",
       "path": "packs/vda-rules",
       "type": "JournalEntry",
       "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vda-rituals",
-      "label": "Ритуалы",
+      "label": "Ритуалы | DA",
       "path": "packs/vda-rituals",
       "type": "Item",
       "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "vtm-rituals",
@@ -195,7 +207,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-books",
@@ -206,7 +219,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-backgrounds",
@@ -217,7 +231,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-merits-flaws",
@@ -228,7 +243,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-items",
@@ -239,18 +255,44 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "ctd-rede",
       "label": "Силы химер",
       "path": "packs/ctd-rede",
       "type": "Item",
+      "system": "worldofdarkness",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "worldofdarkness"
+      "flags": {}
+    },
+    {
+      "name": "vtm-merits-flaws",
+      "label": "Достоинства и недостатки",
+      "path": "packs/vtm-merits-flaws",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldofdarkness",
+      "flags": {}
+    },
+    {
+      "name": "vtm-backgrounds",
+      "label": "Факты биографии",
+      "path": "packs/vtm-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "worldofdarkness",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -269,6 +311,14 @@
       "thumbnail": "modules/wod-compendium/art/WoDC Logo.png",
       "loop": false,
       "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+	  "name": "WoD - Альтернативный",
+      "path": "lang/worldofdarkness_ru.json",
+      "system": "worldofdarkness"
     }
   ],
   "manifest": "https://github.com/takatakitu/wod_comp/releases/latest/download/module.json",
